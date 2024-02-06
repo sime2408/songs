@@ -1,0 +1,10 @@
+# Add a new artist
+POST http://localhost:8080/api/artists
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "artisticName": "Johnny",
+  "dateOfBirth": "1975-04-23",
+  "nationality": "Macedonian"
+}
